@@ -1,0 +1,7 @@
+move_to_300_200
+loop_7
+  move_y_5
+endloop
+draw_rect_5_5
+move_y_-5
+draw_rect_5_5

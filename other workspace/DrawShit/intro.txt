@@ -1,0 +1,507 @@
+set_delay_0
+
+move_to_100_100
+point:s
+point:orig
+
+var|unit=10
+var|pixel=draw_rect_=unit_=unit
+var|moveleft=move_x_-=unit
+var|moveright=move_x_=unit
+var|moveup=move_y_-=unit
+var|movedown=move_y_=unit
+
+change_color_0_255_0
+
+=pixel
+=moveright
+=pixel
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=pixel
+=movedown
+=pixel
+=moveleft
+=pixel
+=moveleft
+=pixel
+goto:s
+=moveup
+=pixel
+=moveup
+=pixel
+=moveup
+=pixel
+=moveright
+=pixel
+=moveright
+=pixel
+
+goto:s
+loop_4
+  =moveright
+endloop
+point:s
+change_color_0_0_255
+
+//K
+=pixel
+=moveup
+=pixel
+=moveup
+=pixel
+=moveup
+=pixel
+goto:s
+=movedown
+=pixel
+=movedown
+=pixel
+=movedown
+=pixel
+goto:s
+=moveright
+=pixel
+point:s
+loop_3
+  =moveright
+  =moveup
+  =pixel
+endloop
+goto:s
+loop_3
+  =movedown
+  =moveright
+  =pixel
+endloop
+
+goto:s
+loop_5
+  =moveright
+endloop
+change_color_255_0_0
+
+//R
+point:s
+loop_3
+  =pixel
+  =moveright
+endloop
+goto:s
+loop_3
+  =moveup
+  =pixel
+endloop
+loop_2
+  =moveright
+  =pixel
+endloop
+=movedown
+=moveright
+loop_2
+  =pixel
+  =movedown
+endloop
+goto:s
+loop_3
+  =movedown
+  =pixel
+endloop
+loop_3
+  =moveright
+endloop
+loop_3
+  =pixel
+  =moveup
+endloop
+
+=moveup
+=moveright
+=moveright
+point:s
+
+//I
+change_color_0_150_76
+loop_2
+  =moveup
+endloop
+loop_7
+  =pixel
+  =movedown
+endloop
+
+goto:s
+loop_4
+  =moveright
+endloop
+point:s
+
+//V
+change_color_50_40_90
+loop_2
+  =moveup
+  =moveleft
+endloop
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=moveup
+=moveright
+=pixel
+=moveup
+=pixel
+=moveup
+=moveright
+=pixel
+=moveup
+=pixel
+=moveup
+=moveright
+=pixel
+=moveup
+=pixel
+
+loop_5
+  =moveright
+endloop
+point:s
+
+//I
+change_color_90_45_187
+loop_7
+  =pixel
+  =movedown
+endloop
+
+loop_2
+  =moveright
+endloop
+=moveup
+point:s
+
+//N
+change_color_0_0_56
+loop_7
+  =pixel
+  =moveup
+endloop
+=movedown
+loop_2
+  =movedown
+  =moveright
+  =pixel
+endloop
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+loop_6
+  =moveup
+  =pixel
+endloop
+
+loop_5
+  =moveright
+endloop
+point:s
+
+//E
+change_color_60_200_70
+loop_7
+  =pixel
+  =movedown
+endloop
+=moveup
+loop_4
+  =moveright
+  =pixel
+endloop
+=moveup
+=moveup
+=moveup
+loop_3
+  =moveleft
+  =pixel
+endloop
+goto:s
+loop_4
+  =moveright
+  =pixel
+endloop
+
+loop_2
+  =moveright
+endloop
+point:s
+
+//T
+change_color_78_255_255
+loop_5
+  =pixel
+  =moveright
+endloop
+point:s
+=moveleft
+=moveleft
+=moveleft
+loop_6
+  =movedown
+  =pixel
+endloop
+
+goto:s
+=moveright
+point:s
+
+//T
+change_color_255_78_255
+loop_5
+  =pixel
+  =moveright
+endloop
+point:s
+=moveleft
+=moveleft
+=moveleft
+loop_6
+  =movedown
+  =pixel
+endloop
+
+goto:orig
+loop_6
+  =movedown
+endloop
+loop_8
+  =moveright
+endloop
+point:s
+
+//F
+change_color_204_207_0
+loop_7
+  =pixel
+  =movedown
+endloop
+goto:s
+loop_3
+  =moveright
+  =pixel
+endloop
+point:s
+loop_3
+  =moveleft
+endloop
+loop_3
+  =movedown
+endloop
+loop_2
+  =moveright
+  =pixel
+endloop
+
+goto:s
+=moveright
+=moveright
+point:s
+
+//I
+change_color_40_5_50
+loop_7
+  =pixel
+  =movedown
+endloop
+
+goto:s
+=moveright
+=moveright
+point:s
+
+//L
+change_color_67_95_244
+loop_7
+  =pixel
+  =movedown
+endloop
+=moveup
+loop_3
+  =moveright
+  =pixel
+endloop
+
+=moveright
+=moveright
+loop_6
+  =moveup
+endloop
+point:s
+
+//N
+change_color_255_0_255
+loop_7
+  =pixel
+  =movedown
+endloop
+goto:s
+loop_2
+  =movedown
+  =moveright
+  =pixel
+endloop
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+loop_6
+  =moveup
+  =pixel
+endloop
+
+=moveright
+=moveright
+loop_6
+  =movedown
+endloop
+point:s
+
+//A
+change_color_50_50_50
+=pixel
+=moveup
+=pixel
+=moveup
+=moveright
+=pixel
+=moveup
+=pixel
+=moveup
+=moveright
+=pixel
+=moveup
+=pixel
+=moveup
+=moveright
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+point:s
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+goto:s
+loop_3
+  =moveleft
+  =pixel
+endloop
+
+goto:s
+loop_4
+  =moveup
+endloop
+=moveright
+=moveright
+=moveright
+point:s
+
+//M
+change_color_255_255_255
+loop_7
+  =pixel
+  =movedown
+endloop
+goto:s
+loop_2
+  =movedown
+  =moveright
+  =pixel
+endloop
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=moveright
+=moveup
+=pixel
+=moveup
+=pixel
+loop_2
+  =moveup
+  =moveright
+  =pixel
+endloop
+point:s
+loop_6
+  =movedown
+  =pixel
+endloop
+
+goto:s
+=moveright
+=moveright
+point:s
+
+//N
+change_color_255_255_0
+loop_7
+  =pixel
+  =movedown
+endloop
+goto:s
+loop_2
+  =movedown
+  =moveright
+  =pixel
+endloop
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+=movedown
+=pixel
+=movedown
+=moveright
+=pixel
+loop_6
+  =moveup
+  =pixel
+endloop
